@@ -63,7 +63,7 @@ li {
 }
 
 .bike {
-    margin: 97px 0 150px 0;
+    margin-top: 97px;
 }
 
 .bike__inner {
@@ -95,11 +95,13 @@ li {
 }
 
 .bike-discription__text--margin {
-    margin: 20px 0 80px 0;
+    margin-top: 20px;
 }
 
 .bike-discription__button {
+    margin-top: 80px;
     padding: 28px 81px;
+    display: inline-block;
     color: #fff;
     background-color: #000;
     border: none;
@@ -182,6 +184,41 @@ li {
     background-color: #FF4040;
 }
 
+.info {
+    margin: 150px 0;
+}
+
+.info__inner {
+    max-width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0 60px;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.info-block h4 {
+    max-width: 490px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #131313;
+}
+
+
+.info-block span {
+    max-width: 450px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #131313;
+}
 
 .footer {
     width: 100%;
