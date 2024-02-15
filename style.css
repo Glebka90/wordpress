@@ -118,17 +118,23 @@ li {
 
 .bike__column {
     max-width: 630px;
+    height: 525px;
 }
 
 .bike-list {
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
     display: flex;
     justify-content: space-around;
 }
 
-.bike-list__item--width {
-    width: 160px;
+.bike-list__item {
+    min-width: 160px;
+    min-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px 0;
 }
 
 .bike-list__item h4 {
@@ -138,6 +144,7 @@ li {
 }
 
 .bike-list__item span {
+    margin: auto 0;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
