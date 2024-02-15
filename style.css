@@ -1,0 +1,179 @@
+*,
+*::after,
+*::before,
+h1 {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #000;
+}
+
+ul,
+li {
+    padding: 0;
+    list-style-type: none;
+}
+
+.body {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #131313;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.nav {
+    margin-right: 71px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 0 10px;
+}
+
+.nav-list__link {
+    min-height: 100%;
+    padding: 42px 20px;
+    transition: all .2s;
+}
+
+.nav-list__link:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.bike {
+    margin: 97px 0 150px 0;
+}
+
+.bike__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bike-discription {
+     width: 540px;
+}
+
+.bike-discription__titile {
+    margin-top: 72px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.bike-discription__signature {
+    margin: 15px 0 65px 0;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #6F6F6F;
+}
+
+.bike-discription__text {
+    max-width: 420px;
+}
+
+.bike-discription__text--margin {
+    margin: 20px 0 80px 0;
+}
+
+.bike-discription__button {
+    padding: 28px 81px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: all .2s;
+}
+
+.bike-discription__button:active {
+    background-color: #313131;
+}
+.bike__column{
+    max-width: 630px;
+}
+.bike-list {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bike-list__item h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #131313;
+}
+
+.bike-list__item span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: lowercase;
+    color: #131313;
+}
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 100px;
+    ;
+    background-color: #000;
+}
+
+.footer__inner {
+    padding: 21px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.politica {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.social {
+    display: flex;
+    gap: 0 30px;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.contact-list__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0 10px;
+    color: #fff;
+}
