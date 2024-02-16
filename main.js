@@ -1,7 +1,9 @@
 $(function () {
-    $('.bike-slider').slick({
+    $('.bike-slider, .slider__items').slick({
         dots: true,
         arrows: false,
-        fade:true
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 2500
     });
 });
