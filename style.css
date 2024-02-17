@@ -266,19 +266,152 @@ li {
     align-self: center;
 }
 
-.slider{
+.slider {
     margin: 150px 0 50px 0;
 }
-.slick-dots{
+
+.slick-dots {
     top: 0;
     left: 0;
 }
-.slider__item{
+
+.slider__item {
     padding-left: 50px;
 }
-.form{
-    margin-bottom: 100px;
+
+.price__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
 }
+
+.form {
+    max-width: 420px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-form__input {
+    margin: 29px 0 20px;
+}
+
+.form__text {
+    max-width: 300px;
+    margin: 41px 0 29px 0;
+}
+
+.price-form__input {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #131313;
+
+}
+
+.price-form__input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #6F6F6F;
+    opacity: 0.5;
+}
+
+.price-form__input:focus {
+    outline: 0;
+}
+
+.price-form__text--margin {
+    margin-bottom: 10px;
+}
+
+.select-color p {
+    margin-bottom: 10px;
+}
+
+.price__inner {
+    position: relative;
+}
+
+.form__lable+.form__lable {
+    margin-left: 23px;
+}
+
+.form__input-radio {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.form__radio-style {
+    width: 80px;
+    height: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.form__input-radio:checked+.form__bike {
+    display: block;
+}
+
+.form__radio-style--gray {
+    background: #6F6F6F;
+}
+
+.form__radio-style--white {
+    background-color: #fff;
+    border: 2px solid #6F6F6F;
+}
+
+.form__radio-style--red {
+    background-color: #FF4040;
+}
+
+.select-color {
+    display: flex;
+}
+
+.form__bike {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.form__price {
+    width: 221px;
+    height: 112px;
+    position: absolute;
+    top: 50px;
+    left: -50px;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.form__price::after {
+    content: '';
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    left: -35px;
+    top: -45px;
+    border-radius: 100%;
+    border: 1px solid #FF4040;
+}
+
+.form__price::before {
+    content: '';
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    left: -35px;
+    top: -33px;
+    border-radius: 100%;
+    border: 1px solid #FF4040;
+}
+
 .footer {
     width: 100%;
     height: 100px;
