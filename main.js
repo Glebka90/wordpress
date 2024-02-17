@@ -4,6 +4,6 @@ $(function () {
         arrows: false,
         fade: true,
         autoplay: true,
-        autoplaySpeed: 2500
+        autoplaySpeed: 2500,
     });
 });
